@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Game Website</title>
+    <style>
+        body {
+            background-image: url('game_background.jpg'); /* Использование игрового фона страницы */
+            background-size: cover;
+        }
+
+        header {
+            background-color: black;
+            color: slateblue;
+            padding: 20px;
+            text-align: center;
+        }
+
+        nav {
+            margin-top: 20px;
+            display: flex;
+            justify-content: center;
+        }
+
+            nav a {
+                margin: 0 10px;
+                color: white;
+                text-decoration: none;
+            }
+
+        footer {
+            background-color: black;
+            color: white;
+            padding: 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        #tobol img {
+            width: 200px;
+            height: 200px;
+            margin: 10px;
+            border-radius: 15%;
+           
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Game Website</h1> <!-- Оглавление сайта -->
+    </header>
+
+    <nav>
+        <a href="https://www.playstation.com/">PlayStation</a> <!-- Гиперссылка на игровую платформу -->
+        <a href="https://www.xbox.com/">Xbox</a> <!-- Гиперссылка на игровую платформу -->
+        <a href="https://www.nintendo.com/">Nintendo</a> <!-- Гиперссылка на игровую платформу -->
+        <a href="https://store.steampowered.com/">Steam</a> <!-- Гиперссылка на игровую платформу -->
+    </nav>
+
+    <div id="tobol">
+    <img src="гта5.jpg";
+    <img scr="csgo.jpg"
+    </div>
+
+
+    <footer>
+        © 2022 Game Website <!-- Подвал -->
+    </footer>
+</body>
+
+</html>
